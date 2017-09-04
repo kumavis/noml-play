@@ -1,0 +1,15 @@
+[Block 0|hash: 0x1234|timestamp;snakes|
+  [txs]->[tx0]
+  [txs]->[tx1]
+  [tx0]->[txLog0]
+  [tx0]->[txReceipt0]
+  [tx1]->[txLog1]
+  [tx1]->[txReceipt1]
+]->[Block 1|hash: 0xabcd|timestamp;snakes|
+  [txs]->[tx0]
+  [txs]->[tx1]
+  [tx0]->[txLog0]
+  [tx0]->[txReceipt0]
+  [tx1]->[txLog1]
+  [tx1]->[txReceipt1]
+]
